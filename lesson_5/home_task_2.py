@@ -7,8 +7,12 @@ counter = 0
 print('Hi :) You need to guess a number from 1 to 100')
 
 while user_number != comp_number:
-    user_number = int(input('Enter any number: '))
     counter += 1
+    try:
+        user_number = int(input('Enter any number: '))
+    except ValueError:
+        print('Bad input! Only numbers can be entered.')
+        continue
     if user_number > 100:
         print(f'Sorry, your number {user_number} is larger than 100. Try again: ')
         continue

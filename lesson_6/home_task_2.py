@@ -18,6 +18,3 @@ random_list[k] = C
 random_list.append(v)
 
 print(f'This is a modified list: {random_list}')
-
-
-

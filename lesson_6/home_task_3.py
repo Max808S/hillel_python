@@ -7,5 +7,4 @@ print(f'Hello ;)\nThe program generates two lists with random numbers: '
       f'\nList #1: {random_list_1}'
       f'\nList #2: {random_list_2}')
 
-result = list(set(random_list_1) ^ set(random_list_2))
-print(f'Unique numbers for two lists: {len(result)}')
+print(f'Unique numbers for two lists: {len(list(set(random_list_1) ^ set(random_list_2)))}')

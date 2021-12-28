@@ -83,4 +83,4 @@ def enter(access=''):
         print('Good bye!')
 
 
-enter(input('\U00002705 / \U0000274C Do you wanna test a functions for the speed of execution (Yes/No): '))
+enter(input('\U00002705 / \U0000274C Do you wanna test a functions for the speed of execution? (Yes/No): '))

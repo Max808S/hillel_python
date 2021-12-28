@@ -25,7 +25,7 @@ def linear_search_1(arr, search):
     for i in range(len(arr)):
         if arr[i] == search:
             return i
-    print(f'\n \U00002733 Finding an item {search} in the first way \U00002935')
+    print(f'\n\U00002733 Finding an item {search} in the first way \U00002935')
     return
 
 
@@ -46,7 +46,7 @@ def linear_search_3(arr, search):
     """
     Line search function #3
     """
-    print(f'\n \U00002733 Searching for an item {search} in a third way \U00002935')
+    print(f'\n\U00002733 Searching for an item {search} in a third way \U00002935')
     return arr.index(search) if search in arr else None
 
 

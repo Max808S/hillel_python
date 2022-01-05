@@ -1,2 +1,3 @@
-print(f'Number #1 ** Number #2 = '
-      f'{(lambda x, y: x**y)(int(input("Write the first number: ")), int(input("Write the second number: ")))}')
+y = int(input('Введите любое натуральное число "y": '))
+print(f'Коллекция значений после применения функций к каждому елементу последовательности: '
+      f'{list(map(lambda x: x**y, range(10)))}')

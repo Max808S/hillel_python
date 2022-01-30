@@ -1,7 +1,6 @@
 def update_hero(hero, power, alive, speed, x, y):
 
     file = open('hero.ini', 'r+', encoding='utf-8')
-
     stats = {
         'hero': hero,
         'power': power,

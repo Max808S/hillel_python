@@ -1,6 +1,6 @@
 def update_hero(hero, power, alive, speed, x, y):
 
-    f_in = open("hero.ini", 'r+', encoding="utf-8")
+    file = open('hero.ini', 'r+', encoding='utf-8')
 
     stats = {
         'hero': hero,
@@ -12,8 +12,8 @@ def update_hero(hero, power, alive, speed, x, y):
     }
 
     for k, v in stats.items():
-        f_in.write(f'{k} - {v} \n')
-    f_in.close()
+        file.write(f'{k} - {v} \n')
+    file.close()
 
 
 if __name__ == '__main__':

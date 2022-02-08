@@ -1,1 +1,1 @@
-Repository with homework from python courses from it hillel school.
+Repository with homeworks from python courses from it hillel school.
